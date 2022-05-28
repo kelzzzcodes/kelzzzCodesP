@@ -177,9 +177,10 @@ const CustomMenu= styled(MenuIcon)`
  display:flex ;
   justify-content:center ;
   align-items: center ;
-  padding:35px 15px ;
+  padding-top:35px;
+  padding-right:35px;
     cursor:pointer;
-    font-size:44px ;
+    font-size:44px;  
   
  
 
