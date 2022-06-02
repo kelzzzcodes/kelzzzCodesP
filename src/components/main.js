@@ -3,7 +3,9 @@ import styled from 'styled-components';
 function main() {
   return (
     <Container>
-    main
+    <Wrapper>
+      Main 
+    </Wrapper>
     
     </Container>
   )
@@ -12,6 +14,22 @@ function main() {
 export default main
 
 const Container=styled.div`
+display:flex;
+color:black;
+height:100vh;
+
+
+
+
+`
+const Wrapper= styled.div`
+display:flex ;
+padding:50px ;
+height:250px;
+width:250px;
+border: 2px solid rgba(133,221,116,0.74);
+margin:auto ;
+border-radius:7px ;
 
 
 `
